@@ -31,7 +31,11 @@ Para realizar uma atribuição o programador deve utilizar o sinal de igual, e n
 
 ## Regras de Variáveis
 
-&nbsp; A regra para nomear uma variável é que o nome dela sempre comece por uma letra ou _. No meio do nome podem-se usar números, mas não se devem usar caracteres especiais e também não pode ser uma palavra reservada. Entende-se por palavras reservadas os comandos do C# e que são facilmente identificadas quando digitadas, por ficarem da cor azul. Exemplos de palavras que não podem ser utilizadas são: if, for, while, string e etc.
+&nbsp; O nome de uma variável deve sempre começar por uma letra ou _. No meio do nome podem-se usar números, mas não se devem usar caracteres especiais e também não pode ser uma palavra reservada. Entende-se por palavras reservadas os comandos do C# e que são facilmente identificadas quando digitadas, por ficarem da cor azul. Exemplos de palavras que não podem ser utilizadas são: if, for, while, string e etc.<br>
+
+&nbsp; Variáveis em CSharp seguem o padrão CascalCase onde a primeira palavra começa com a letra minúscula e as demais palavras começam com letra maiúscula. Nomes de variáveis não possuem espaço em branco e deve possuir um nome significativo que descreva o valor que está sendo armazenado pela variável.
+
+
 
 ## Como uma variável no C# funciona por trás dos panos?
 
