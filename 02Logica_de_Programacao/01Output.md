@@ -1,4 +1,4 @@
-# Saída de dados pelo Console
+# Saída de dados pelo Console/Output
 
 &nbsp; Saída de dados ou output é utilizado quando o desenvolvedor precisa retornar um valor na tela, neste caso no console. Para utilizar o console no C# primeiro é necessário criar uma aplicação do tipo console e executar um comando que irá printar o valor. Os comandos de print no C# serão executados atrávez da <i>classe</i> Console que está dentro do <i>namespace</i> System, que por sua vez já é importado por padrão em qualquer aplicação DotNet. <br>
 
