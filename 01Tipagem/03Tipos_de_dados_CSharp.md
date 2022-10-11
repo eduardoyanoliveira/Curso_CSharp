@@ -61,7 +61,7 @@ Tipos númericos possuem um limete de valor mínimo e máximo, para descobri-los
     char gender = 'M';
 ```
 
-* string => representa um encadeamento de caracteres.
+* string => representa um encadeamento de caracteres. Para criá-las utilize sempre aspas duplas entorno dos caracteres desejados.
 
 ```
     string name = "Yan"
