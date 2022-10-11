@@ -26,4 +26,4 @@ O DotNet Framework não possui código aberto.
 
 * ### DotNet Core:
 
-&nbsp; Surgiu em 2016 atravéz de uma colaboração entre a Microsoft e a própria comunidade C#. O DotNet Core destaca-se por ser rápido e performátic,o mesmo disponibiliza criação de aplicações Console e ASP.Net Core.
+&nbsp; Surgiu em 2016 através de uma colaboração entre a Microsoft e a própria comunidade C#. O DotNet Core destaca-se por ser rápido e performátic,o mesmo disponibiliza criação de aplicações Console e ASP.Net Core.
