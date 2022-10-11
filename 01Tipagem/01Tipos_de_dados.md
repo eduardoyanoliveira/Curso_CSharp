@@ -1,4 +1,4 @@
-# Tipo de Dados
+# Tipos de Dados/Tipos Primitivos 
 
 &nbsp; O Artigo anterior apresenta que ao criar uma variável seu tipo deve ser informado. O tipo que no caso este artigo refere-se é o tipo de dado que será armazenado pela variável. Normalmente a linguagem de programação utilizada limitará os tipos de dados deixando o desenvolvedor escolher qual tipo uma variável terá de acordo com uma lista pré-determinada anteriormente.
 

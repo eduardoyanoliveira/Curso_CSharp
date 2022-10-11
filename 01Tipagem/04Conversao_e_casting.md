@@ -35,3 +35,57 @@
 
 Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e não ultrapassa 4 bits.
 
+## Metódos para conversão
+
+&nbsp; Além das conversões vistas acima, é possível utilizar um metódo para auxilar na conversão de tipos dados. Alguns exemplos destes metódos estão abaixo.
+
+### Exemplo: Converter para int
+
+```
+    int numb = int.Parse("4");
+    // Neste caso o valor de numb será 4 e não a string "4"
+```
+
+### Exemplo: Converter para float
+
+```
+    float numb = float.Parse("4,5");
+
+    Console.Write(numb + 5); // Output: 9,5
+```
+
+### Exemplo: Converter para char
+
+```
+    string oneChar = "Y";
+    char text = char.Parse(oneChar);
+
+    Console.Write(text.GetType()); //Output: System.Char
+```
+
+* #### Obs:
+
+&nbsp; O Exemplo acima mostra como é possível obter o tipo de uma variável utilizando o metódo GetType.
+
+### Exemplo: Converter para bool
+
+```
+    string isOnn = "true";
+    bool isActvive = bool.Parse(isOnn);
+
+    Console.WriteLine(isActvive); // Output: True
+    Console.Write(isActive.GetType()); // Output: System.Boolean
+```
+
+### Exemplo: Converter para string
+
+```
+    int numb = 234;
+    string text = numb.ToString();
+
+    Console.Write(text.GetType()); // Output: System.String
+```
+
+* #### Obs:
+
+&nbsp; O tipo string não possui o metódo Parse, porém quase todos os tipo possuem uma implementação do metódo ToString que transformará o valor em string.
