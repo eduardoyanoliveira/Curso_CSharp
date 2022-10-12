@@ -41,14 +41,15 @@
 
 ## else if
 
-&nbsp; Também é possível criar um encadeamento de testes lógicos com escopos diferentes de acordo com cada resultado.Para realizá-lo utiliza-se  a estrutura else if recebendo um teste lógico.
+&nbsp; Também é possível criar um encadeamento de testes lógicos com escopos diferentes de acordo com cada resultado.Para realizá-lo utiliza-se  a estrutura else if recebendo um teste lógico.(O else if pode ser encadiado por quantas vezes for necessário).
+
+### Exemplo:
 
 &nbsp; O programa abaixo se comportará da seguinte forma:
 
     * Caso o valor de "x" for menor ou igual a 10 printará "Número de valor pequeno".
     * Caso o valor de "x" for maior que 10 e menor ou igual a 100 printará "Número de valor médio".
-    * Caso nenhum dos testes acima forem verdadeiros o programa printará "Número de valor grande"
-
+    * Caso nenhum dos testes acima forem verdadeiros o programa printará "Número de valor grande".
 
 ```
     Console.WriteLine("Digite seu número: ");
