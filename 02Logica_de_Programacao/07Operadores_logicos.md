@@ -4,8 +4,8 @@
 
 ## Operadores
 
-    && operador "e" ou "and". Utilizado para realizar mais de uma comparação dentro do mesmo teste lógico.
-    O Programa apenas retornará True caso ambas as comparações forem veredadeiras.
+&& operador "e" ou "and". Utilizado para realizar mais de uma comparação dentro do mesmo teste lógico.<br>
+O Programa apenas retornará True caso ambas as comparações forem veredadeiras.
 
 ### Exemplo:
 
@@ -15,8 +15,8 @@
 ```
 
 
-    || operador "ou" ou "or". Utilizado para realizar mais de uma comparação dentro do mesmo teste lógico.
-    O Programa retornará True caso ao menos uma das comparações for veredadeira.
+|| operador "ou" ou "or". Utilizado para realizar mais de uma comparação dentro do mesmo teste lógico.<br>
+O Programa retornará True caso ao menos uma das comparações for veredadeira.
 
 ### Exemplo:
 
@@ -25,8 +25,8 @@
     Console.WriteLine(4 != 2 || 4 < 3); // Output: True
 ```
 
-    ! operador "não" ou "not". Utilizado para inverter o valor do teste lógico, de por exemplo, "dois é maior que 3?" para "dois não é maior que três?".
-    O Programa retornará True caso o teste lógico resulte em False.
+! operador "não" ou "not". Utilizado para inverter o valor do teste lógico, de por exemplo, "dois é maior que 3?" para "dois não é maior que três?".<br>
+O Programa retornará True caso o teste lógico resulte em False.
 
 ### Exemplo:
 
