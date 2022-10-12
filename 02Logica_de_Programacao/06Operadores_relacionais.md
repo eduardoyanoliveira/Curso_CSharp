@@ -1,4 +1,4 @@
-# Operadores comparativos
+# Operadores relacionais/comparativos
 
 &nbsp; Os operadores comparativos, como sugere o nome são usados para comparação de valores retornando o valor lógico verdadeiro ou falso. Abaixo é apresentado a lista de operadores comparativos em C#.
 
