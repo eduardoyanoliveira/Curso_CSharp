@@ -9,7 +9,8 @@
 ## Exemplo
 
 ```
-    string name = Console.ReadLine("Digite seu nome: ");
+    Console.WriteLine("Digite seu nome: ");
+    string name = Console.ReadLine();
     // O valor de name será o valor digitado pelo usuário
 
 ```
