@@ -1,4 +1,4 @@
-# Estruturas de Repetição.
+# Estruturas de Repetição For
 
 &nbsp; As estruturas de repetição são usadas para controlar a execução de códigos repetidamente até que uma condição seja verdadeira. Comumente utilizadas para iterar (percorrer) listas e arrays.<br>
 
@@ -48,7 +48,7 @@
 
 &nbsp; Para acessar o índice atual do array na repetição, deve-se utilizar a variável de controle, neste caso "i", pois a mesma terá o valor atual da iteração que será o mesmo valor do índice atual do array. Uma vez que a mesma, tal como array, começa com o valor zero, é incrementada por repetição e para de ser incrementada quando seu valor for igual ao tamanho do array.
 
-## Foreach
+* ## Foreach
 
 &nbsp; Acima, descreve-se o uso do for clássico para iterar sobre um array. Entretanto, o C# também disponibiliza o foreach que pode realizar o mesmo processo com maior simplicidade.
 
