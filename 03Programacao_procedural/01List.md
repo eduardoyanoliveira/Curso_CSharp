@@ -23,7 +23,7 @@
         Emmily
     */
 ```
-
+&nbsp; A palavra reservada "new" é utilizada para referir que trata-se de um nova instância da classe List. O tópico de classes será abordado em seções relacionadas a orientação a objetos.
 ## Adicionando elementos a lista
 
 &nbsp; Como citado acima, ao contrário dos arrays que contém um número fixo de elementos, no caso das listas é possível adicionar a quantidade de elementos necessários após sua instanciação (criação).
