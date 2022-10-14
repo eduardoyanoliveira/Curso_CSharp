@@ -23,7 +23,7 @@ Para gerar um valor double pelos menos um número da expressão deve conter casa
 
 ## Petenciação e Raiz Quadrada
 
-&nbsp; Os metódos Pow e Sqrt da classe Math são utilizados respectivamente para Potênciação e Raiz Quadrada.
+&nbsp; Os métodos Pow e Sqrt da classe Math são utilizados respectivamente para Potênciação e Raiz Quadrada.
 
 ### Exemplo: Potenciação
 
@@ -42,5 +42,5 @@ Para gerar um valor double pelos menos um número da expressão deve conter casa
 
 * #### Obs:
 
-&nbsp; Para acesar um metódo ou propriedade de uma classe é utilizado a notação de ponto. 
+&nbsp; Para acesar um método ou propriedade de uma classe é utilizado a notação de ponto. 
 <nome_da_classe>.<metodo_ou_propriedade>

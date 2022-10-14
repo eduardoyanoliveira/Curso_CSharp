@@ -26,7 +26,7 @@
 
 ## Acessando Valores 
 
-&nbsp; Por tratar-se de um valor vetorizado tal como o tipo de dados string, o array compartilha metódos em comum com o tipo string e utiliza a mesma sintaxe para acessar valores.
+&nbsp; Por tratar-se de um valor vetorizado tal como o tipo de dados string, o array compartilha métodos em comum com o tipo string e utiliza a mesma sintaxe para acessar valores.
 
 ### Exemplo:
 
@@ -76,7 +76,7 @@
 
 ## Pegar índice de um valor específico
 
-&nbsp; Similar ao metódo String.IndexOf que retorna o índice de um determinado caracter em uma string, o array também conta com um metódo que retorna o índice de um determinado valor.Entretanto, neste caso para executar o metódo do array deve-se utilizar o próprio nome Array para acessar o metódo não a variável. O método em questão é o Array.IndexOf que recebe como parametro o array e o valor cuja o índice deve-se descobrir.
+&nbsp; Similar ao método String.IndexOf que retorna o índice de um determinado caracter em uma string, o array também conta com um método que retorna o índice de um determinado valor.Entretanto, neste caso para executar o método do array deve-se utilizar o próprio nome Array para acessar o método não a variável. O método em questão é o Array.IndexOf que recebe como parametro o array e o valor cuja o índice deve-se descobrir.
 
 ### Exemplo:
 
@@ -88,7 +88,7 @@
 
 ## Array.Length
 
-&nbsp; O tipo de dados array conta com a propriedade Array.length que retornará o tamanh o do array. (Neste caso não será utilizado os parênteses na sua execução por não tratar-se de um metódo).
+&nbsp; O tipo de dados array conta com a propriedade Array.length que retornará o tamanh o do array. (Neste caso não será utilizado os parênteses na sua execução por não tratar-se de um método).
 
 ```
     String[] names = new String[3]{"Yan", "john", "Mary"};

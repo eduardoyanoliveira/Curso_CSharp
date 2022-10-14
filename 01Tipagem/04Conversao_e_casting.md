@@ -35,9 +35,9 @@
 
 Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e não ultrapassa 4 bits.
 
-## Metódos para conversão
+## Métodos para conversão
 
-&nbsp; Além das conversões vistas acima, é possível utilizar um metódo para auxilar na conversão de tipos dados. Alguns exemplos destes metódos estão abaixo.
+&nbsp; Além das conversões vistas acima, é possível utilizar um método para auxilar na conversão de tipos dados. Alguns exemplos destes métodos estão abaixo.
 
 ### Exemplo: Converter para int
 
@@ -65,7 +65,7 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 * #### Obs:
 
-&nbsp; O Exemplo acima mostra como é possível obter o tipo de uma variável utilizando o metódo GetType.
+&nbsp; O Exemplo acima mostra como é possível obter o tipo de uma variável utilizando o método GetType.
 
 ### Exemplo: Converter para bool
 
@@ -88,4 +88,4 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 * #### Obs:
 
-&nbsp; O tipo string não possui o metódo Parse, porém quase todos os tipo possuem uma implementação do metódo ToString que transformará o valor em string.
+&nbsp; O tipo string não possui o método Parse, porém quase todos os tipo possuem uma implementação do método ToString que transformará o valor em string.

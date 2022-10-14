@@ -14,7 +14,7 @@
 
 #### Obs:
 
-    O metódo Console.WriteLine permite printar uma informação no console.
+    O método Console.WriteLine permite printar uma informação no console.
 
 &nbsp; Para colocar uma barra invertida literal dentro da string basta colocar duas barras invertidas seguidas.
 
@@ -57,7 +57,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Encontrar índice de um determinado caracter
 
-&nbsp; O metódo IndexOf da clase String pode ser utilizado para descobrir o índice de um determinado caracter dentro da string.
+&nbsp; O método IndexOf da clase String pode ser utilizado para descobrir o índice de um determinado caracter dentro da string.
 
 
 ### Exemplo:
@@ -86,9 +86,9 @@ com a quantiadade de caracteres da string. <br>
 
 ### Obs: 
 
-    O metódo IndexOf retornará apenas o primeiro índice cuja o valor seja igual ao informado.
+    O método IndexOf retornará apenas o primeiro índice cuja o valor seja igual ao informado.
 
-&nbsp; Para encontrar o ultimo índice de um valor em uma string, srá utilizado o metódo String.LastIndexOf
+&nbsp; Para encontrar o ultimo índice de um valor em uma string, srá utilizado o método String.LastIndexOf
 
 
 ### Exemplo:
@@ -101,7 +101,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Substituição de caracteres em uma string
 
-&nbsp; O metódo String.Replace é utilizado para substiuir um caracter dentro da string, sendo o primeiro parâmetro o caracter a ser substituído e o segundo o caracter substituto.
+&nbsp; O método String.Replace é utilizado para substiuir um caracter dentro da string, sendo o primeiro parâmetro o caracter a ser substituído e o segundo o caracter substituto.
 
 ### Exemplo:
 
@@ -125,7 +125,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Obter substring. (Fatiar string)
 
-&nbsp; O método String.Slice permite o desenvolvedor a obter uma substring através de uma string. Para executar o metódo é necessário informar índice inicial onde a substring começará e o índice final.
+&nbsp; O método String.Slice permite o desenvolvedor a obter uma substring através de uma string. Para executar o método é necessário informar índice inicial onde a substring começará e o índice final.
 
 ### Exemplo:
 
@@ -137,7 +137,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Criar array através de strings
 
-&nbsp; Na programação a palavra array refere-se a uma lista indexada. Este é um tópico que será abordado em próximas seções. Entretanto aqui será exemplificado o metódo String.Split que separa uma string por um dado caracter armazenando as separações resultantes em um array.
+&nbsp; Na programação a palavra array refere-se a uma lista indexada. Este é um tópico que será abordado em próximas seções. Entretanto aqui será exemplificado o método String.Split que separa uma string por um dado caracter armazenando as separações resultantes em um array.
 
 
 ### Exemplo:
@@ -154,7 +154,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Transformar string em letras maiúsculas
 
-&nbsp; O metódo String.ToUpper é utilizado para transformar todos os caracters de uma string em letras maiúsculas 
+&nbsp; O método String.ToUpper é utilizado para transformar todos os caracters de uma string em letras maiúsculas 
 
 ### Exemplo:
 
@@ -166,7 +166,7 @@ com a quantiadade de caracteres da string. <br>
 
 ## Transformar string em letras minúsculas
 
-&nbsp; O metódo String.ToUpper é utilizado para transformar todos os caracters de uma string em letras minúsculas 
+&nbsp; O método String.ToUpper é utilizado para transformar todos os caracters de uma string em letras minúsculas 
 
 ### Exemplo:
 
@@ -179,7 +179,7 @@ com a quantiadade de caracteres da string. <br>
 ## Capitalizar string. (Transformar a primeira letra de todas as palavras de uma string em maiúscula)
 
 
-&nbsp; Para transformar a primeira letra de todas as palavras de uma string em maiúscula utiliza-se o metódo String.ToTitleCase
+&nbsp; Para transformar a primeira letra de todas as palavras de uma string em maiúscula utiliza-se o método String.ToTitleCase
 
 ### Exemplo:
 
@@ -191,4 +191,4 @@ com a quantiadade de caracteres da string. <br>
 
 ### Obs
 
-    Este são apenas alguns exemplos de metódos do tipo string em C#. 
+    Este são apenas alguns exemplos de métodos do tipo string em C#. 
