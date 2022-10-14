@@ -1,6 +1,6 @@
 # Comentários em C#
 
-&nbsp; Comentários são trechos de códigos ignorados pelo compilador ou interpretador. São utilizados para informar o desenvolvedor que ler o código sobre alguma especificidade, bug, alteração, etc.<br>
+&nbsp; Comentários são trechos de códigos ignorados pelo compilador ou interpretador. São utilizados para informar o desenvolvedor que lê o código sobre alguma especificidade, bug, alteração, etc.<br>
 
 &nbsp; Em C# existe duas formas de comentar um trecho de código.
 
