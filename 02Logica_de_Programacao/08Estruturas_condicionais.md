@@ -64,3 +64,20 @@
     };
 
 ```
+
+
+## if Ternário
+
+&nbsp; O if ternário é um sintaxe sugar (simplificação) que permite que o desenvolvedor aplique um estrutra condicional em apenas uma linha de código.<br>
+
+### Exemplo
+
+```
+    String result = 1 > 2 ? "Verdadeiro" : "Falso";
+
+    Console.WriteLine(result); //Output: "Falso"
+```
+
+&nbsp; No if ternário primeiro deve-se informar o teste lógico, depois uma interrrogação seguida pelo código que será executado caso o teste for verdadeiro e por final os dois pontos seguidos pelo código a ser executado caso o teste for falso. <br>
+
+* Obs: Apesar de possível, o if ternário não deve ser encadeado como uma estrutura de if ,else if, else.
