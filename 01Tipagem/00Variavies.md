@@ -17,17 +17,17 @@
 ## Sintaxe (Como criar variáveis C#)
 
 &nbsp; Uma variável é apenas um nome escolhido pelo programador que receberá um valor que pode ou não ser atribuido no momento da criação da variável. <br>
-Para realizar uma atribuição o programador deve utilizar o sinal de igual, e no caso do C# para o compilador/interpretador identificar a variável a mesma deve ser antecedida pelo <i><strong>modificador de acesso</strong></i> e <i><strong>tipo</strong></i>.
+Para realizar uma atribuição o programador deve utilizar o sinal de igual, e no caso do C# para o compilador/interpretador identificar a variável a mesma deve ser antecedida pelo sue <i><strong>tipo</strong></i>.
 
 ### Ex:
 
 ```
-    public int idade = 30;
+    int idade = 30;
 ```
 
 ### Obs:
 
-    * Tipos e modificadores de acesso será abordados próximos artigos.
+    * Tipos serão abordados nos próximos artigos.
 
 ## Regras de Variáveis
 
