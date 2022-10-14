@@ -249,5 +249,30 @@
     bool hasLetterA(string word){
         return word.IndexOf('a') >= 0;
     };
-    
+
+```
+
+## Encontrar elemento pelo seu índice
+
+* ### FindIndex e FindLastIndex
+
+&nbsp; FindIndex e FindLastIndex encontrará respectivamente o primeiro e o ultimo elemento da lista que satisfaça o predicado.
+
+### Exemplo
+
+&nbsp; Este exemplo encontra o índice do primeiro e ultimo número par na lista.
+
+```
+    List<int> nubmers = new List<int>{3, 1, 4, 7, 8, 9, 11, 10, 15};
+
+    int firstIndex = numbers.FindIndex(isOdd);
+    int lastIndex = numbers.FindLastIndex(isOdd);
+
+    Console.WriteLine(firstIndex); // Output: 2
+    Console.WriteLine(lastIndex); // Output: 7
+
+    bool IsOdd(int number){
+        return number % 2 == 0;
+    };
+
 ```
