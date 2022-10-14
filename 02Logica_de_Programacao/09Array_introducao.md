@@ -16,7 +16,8 @@
     int[] numbers = new int[3];
 ```
 
-&nbsp; O exemplo acima declara um array de  três números inteiros inicializado como um array vázio.
+&nbsp; O exemplo acima declara um array de  três números inteiros inicializado como um array vázio.<br>
+&nbsp; A palavra reservada "new" é utilizada para referir que tratase de um nova instância da classe int[]. O tópico de classes será abordado em seções relacionadas a orientação a objetos.
 
 ```
     int[] numbers = new int[3]{2,7,9};
