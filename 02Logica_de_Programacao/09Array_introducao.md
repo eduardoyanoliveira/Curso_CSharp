@@ -1,8 +1,8 @@
 # Introducação a Array
 
-&nbsp; Um Array é um conjunto de elementos de um mesmo tipo de dados onde cada elemento do conjunto é acessado pela posição no array que é dada através de um índice (uma sequência de números inteiros).  Um array de uma dimensão é também conhecido como vetor. Para facilitar o entendimento o array pode ser descrito como uma lista de elementos do mesmo tipo.<br>
+&nbsp; Um Array é um conjunto de elementos de um mesmo tipo de dados onde cada elemento do conjunto é acessado pela posição no array que é dada através de um índice (uma sequência de números inteiros).  Um array de uma dimensão é também conhecido como vetor. Para facilitar o entendimento o array pode ser descrito como uma coleção de elementos do mesmo tipo.<br>
 
-&nbsp; Os arrays são comumente utilizados no dia a dia da programação como por exemplo: Lista de Produtos; lista de clientes; lista de usuários, etc.
+&nbsp; Os arrays são comumente utilizados no dia a dia da programação como por exemplo: coleção de Produtos; coleção de clientes; coleção de usuários, etc.
 
 ## Declarando Arrays em C#
 
