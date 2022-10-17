@@ -2,7 +2,7 @@
 
 &nbsp; HashSet são conjuntos de elementos. Por possuir similariadas aos conjuntos álgebricos, são muito utilizados em algoritimos matemáticos.
 
-## Carácteristicas
+## Características
 
 * Não admite repetições.
 * Elementos não possuem posição.
