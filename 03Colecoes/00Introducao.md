@@ -1,5 +1,0 @@
-# Introdução a programação procedural
-
-&nbsp; O termo Programação procedural (ou programação procedimental) é às vezes utilizado como sinônimo de Programação imperativa (Paradigma de programação que especifica os passos que um programa deve seguir para alcançar um estado desejado), mas pode se referir a um paradigma de programação baseado no conceito de chamadas a procedimento. Os Procedimentos, também conhecidos como rotinas, subrotinas, métodos, ou funções (que não devem ser confundidas com funções matemáticas, mas são similares àquelas usadas na programação funcional) simplesmente contêm um conjunto de passos computacionais a serem executados. Um dado procedimento pode ser chamado a qualquer hora durante a execução de um programa, inclusive por outros procedimentos ou por si mesmo. <br>
-
-&nbsp; No caso desta seção, o termo programação procedural é utilizado para categorizar e agrupar tópicos referente a funções, métodos e alguns tópicos mais avançados semelhantes ao vistos na seção lógica de programação.
