@@ -84,7 +84,7 @@
 
 * ## DateTime.ParseExact
 
-&nbsp; Tal como o DateTime.Parse, o DateTime.ParseExact é um método que receberá uma data em formato de string, porém além disto, receberá como segundo parâmetro a mascára de formatação desejada para data. Isto é, o formato que a data deve ser interpretada.
+&nbsp; Tal como o DateTime.Parse, o DateTime.ParseExact é um método que receberá uma data em formato de string, porém além disto, receberá como segundo parâmetro a máscara de formatação desejada para data. Isto é, o formato que a data deve ser interpretada.
 
 ### Exemplo
 
@@ -96,3 +96,92 @@
 ```
 
 &nbsp; O exemplo acima utiliza a obrigatóriamente a propriedade "CultureInfo.InvariantCulture" para evitar destorções de fuso horários.
+
+
+## Propriedades do tipo DateTime
+
+* Day (int) => Extrai o dia da data
+* DayOfWeek (DayOfWeek) => Extrai o dia da semana (Exemplo: Domingo = 0, Segunda = 1)
+* DayOfYear (int) => Extrai o dia do ano da data ( Exemplo: 220)
+* Month (int) => Extrai o mês
+* Year (int) => Extrai o ano
+* Hour (int) => Extrai a hora
+* Minute (int) => Extrai os minutos
+* Second (int) => Extrai os segundos
+* TimeOfDay (TimeSpan) => Extrai a hora do dia
+* etc
+
+## Métodos de formatação
+
+&nbsp; Os métodos de formatação são utilizados para transformar a data é um formato específico, para que a mesma possa ser apresentada.
+
+### Exemplo: ToLongDateString
+
+```
+    using System.Globalization;
+
+    DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
+    Console.WriteLine(d.ToLongDateString()); // Output: sábado, 10 de janeiro de 1998
+```
+
+### Exemplo: ToLongTimeString
+
+```
+    using System.Globalization;
+
+    DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
+    Console.WriteLine(d.ToLongTimeString()); // Output: 12:12:00 AM
+```
+
+&nbsp; Acima são apresentados apenas alguns exemplos dos métodos de formatação de data. Além de outros métodos não apresentados nos exemplos, também é possível utilizar o método ToString passando como parâmetro a máscara de formatação desejada.
+
+### Exemplo: Com máscara de formatação
+
+```
+    using System.Globalization;
+
+    DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
+    Console.WriteLine(d.ToString("yyyy-MM-dd HH:mm:ss")); // Output: 1998-01-10 00:12:00
+```
+
+## Operações com datas
+
+&nbsp; Ainda é possível realizar operações com datas, como:
+
+* Add(timeSpan) => Adiciona duração a data (tempo)
+* AddHours(double) => Adiciona horas
+* AddMinutes(double) => Adiciona minutos
+* AddSeconds(double) => Adiciona segundos
+* AddDays(double) => Adiciona dias
+* AddMonths(int) => Adiciona meses
+* AddYears(int) => Adiciona anos
+* etc
+
+### Exemplo
+
+```
+    using System.Globalization;
+
+    DateTime date = DateTime.ParseExact("21/02/2007", "dd/MM/yyyy", CultureInfo.InvariantCulture);
+    DateTime newDate = date.AddDays(2.0);
+
+    Console.WriteLine(newDate); //Output: 23/02/2007 12:00:00 AM
+```
+
+&nbsp; Utilize o método Subtract para retornar a diferença entre duas datas. A diferença retornada será apresendata em milesegundos com o tipo TimeSpan.<br>
+
+&nbsp; O tipo TimeSpan será apresentado no próximo artigo.
+
+### Exemplo
+
+```
+    using System.Globalization;
+
+    DateTime dateOne = DateTime.ParseExact("21/02/2007", "dd/MM/yyyy", CultureInfo.InvariantCulture);
+    DateTime dateTwo = DateTime.ParseExact("13/01/2000", "dd/MM/yyyy", CultureInfo.InvariantCulture);
+
+    TimeSpan time = dateOne.Subtract(dateTwo);
+
+    Console.WriteLine(time); // Output: 2596.00:00:00
+
+```
