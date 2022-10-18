@@ -81,3 +81,55 @@
 &nbsp; No if ternário primeiro deve-se informar o teste lógico, depois uma interrrogação seguida pelo código que será executado caso o teste for verdadeiro e por final os dois pontos seguidos pelo código a ser executado caso o teste for falso. <br>
 
 * Obs: Apesar de possível, o if ternário não deve ser encadeado como uma estrutura de if ,else if, else.
+
+
+## Switch 
+
+&nbsp; A estrutura de repetição switch é utilizada como uma sintaxe alternativa a um encadeamento de IF's.
+
+## Sintaxe
+
+&nbsp; Para melhor entendimento da sua sintaxe deve-se observar que:
+
+1º Após cada palavra "case" está o valor a ser testado. Logo pode-se ler um case como: "Caso o valor seje x faça algo". <br>
+
+2º Após a valor do case estará o símbolo de dois pontos, o memso indicará que apertir deste ponto do código será executado o que será feito caso o valor seja o valor testado pelo case.
+
+3º Ao final de cada "case" deve-se utilizar a palavra reservada "break", a mesma fará com que os cases abaixos não sejam executados ou testados, se um case já foi satisfeito.
+
+4º No final de todo encadeamento de "cases" deve-se colocar a estrutura "default", está será semelhante a estrutura "else", que será executada caso nenhum "case" seja satisfeito.
+
+### Exemplo
+
+```
+    int day = 4;
+    
+    switch (day) 
+    {
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        Console.WriteLine("Wednesday");
+        break;
+    case 4:
+        Console.WriteLine("Thursday");
+        break;
+    case 5:
+        Console.WriteLine("Friday");
+        break;
+    case 6:
+        Console.WriteLine("Saturday");
+        break;
+    case 7:
+        Console.WriteLine("Sunday");
+        break;
+    }
+
+    // Outputs "Thursday" (day 4)
+
+
+```
