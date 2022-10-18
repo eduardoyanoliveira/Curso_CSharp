@@ -1,6 +1,6 @@
 # DateTime
 
-&nbsp; Na rotina de desenvolvimento de uma software, por vezes é necessário controlar dados do tipo data. Por exemplo: data de emissão de um relatório, data de venda, data de compra, etc. 
+&nbsp; Na rotina de desenvolvimento de uma software, por vezes é necessário controlar dados do tipo data. Por exemplo: data de emissão de um relatório, data de venda, data de compra, etc. No caso o DateTime representará um instante. 
 
 &nbsp; Para armazenar datas em C# utiliza-se  o tipo de dado DateTime, que por sua vez, trata-se de um tipo "struct". <br>
 
