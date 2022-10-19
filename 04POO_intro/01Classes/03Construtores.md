@@ -93,3 +93,49 @@
 
 &nbsp; É possível observar no exemplo acima que dentro do escopo do segundo construtor é atribuído manualmente o valor zero a propriedade Quantity. Entretanto, esta linha de código não é necessária, pois por padrão, quando não informado o valor a uma propriedade númerica de uma classe, será atribuído o valor zero.
 
+## Construtor padrão
+
+&nbsp; Para que sejá possível novamente instanciar um objeto sem passar os valores de suas propriedades no momento de sua instanciação, ou, para que seja possível utilizar a sintaxe alternativa de chaves para instanciar um objeto. Deve-se declarar um construtor padrão dentro da classe. Isto é, um construtor que não recebe atributos.
+
+
+### Exemplo
+
+```
+    Product prod1 = new Product();
+    prod1.Name = "notebook";
+    prod1.Price =  2500.00;
+    prod1.Quantity = 3;
+
+    Product prod2 = new Product{Name= "iPhone", Price= 10000.00, Quantity= 30};
+
+    Console.WriteLine(prod1); //Output: "Produto notebook, Preço: 2500, quantidade 3"
+    Console.WriteLine(prod2); //Output: "Produto iPhone, Preço: 10000, quantidade 30"
+
+    class Product {
+        public string Name;
+        public double Price;
+        public int Quantity;
+
+        // Construtor padrão
+        public Product(){
+
+        }
+        
+        public Product(string name, double price, int quantity){
+            Name = name;
+            Price = price;
+            Quantity = quantity;
+        }
+
+        public Product(string name, double price){
+            Name = name;
+            Price = price;
+            Quantity = 0;
+        }
+
+        public override string ToString(){
+            return $"Produto {Name}, Preço: {Price}, quantidade {Quantity}";
+        }
+    };
+
+```
