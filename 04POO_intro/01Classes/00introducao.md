@@ -68,6 +68,27 @@ Obs: <br>
 
 ```
 
+## Sintexe Alternativa
+
+&nbsp; Também é possível instanciar um objeto da classe utilizando uma sintaxe alternativa que permite informar o valor das propriedades direto na instanciação.
+
+### Exemplo
+
+```
+
+    Person p1 = new Person {name = "Yan", age = 24, height= 1.71};
+
+    Console.WriteLine($"Meu nome é {p1.name}, minha idade é {p1.age} anos e minha altura é {p1.height} cm");
+    // Output: Meu nome é Yan minha idade é 24 anos e minha altura é 1.71 cm.
+
+    class Person{
+        public string name;
+        public int age;
+        public double height;
+    };
+
+```
+
 ## Comportamento da memória
 
 &nbsp; No exemplo acima é possível analisar que as variáveis p1 e p2 são primeiramente declaradas e depois instanciadas. Também é citado, que uma variável de um tipo classe precisa ser instanciada. Isto ocorre porque ao declarar a variável, a mesma é alocada em uma area da memória chamada <strong> <i> Stack </i> </strong> responsável por armazenar variáveis estáticas. Entretanto os objetos de uma classe não são valores estáticos, e sim valores compostos com diversas propriedades e métodos. Logo também é necessário armazenar este valor composto na memório, o que é feito no momento da instanciação do objeto. O valor composto por sua vez não pode ser armazenado na memória <strong> <i> Stack </i> </strong>, então o mesmo será armazenado em outro espaço da memória chamado <strong> <i> Heap </i> </strong>. <br>
