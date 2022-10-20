@@ -5,7 +5,10 @@
 &nbsp; Na Programação orientada a objetos linguagens como Java, C, e C# utilizam os modificadores de acesso a seguir para limitar o acesso a classes e membros de classes.
 
 - public -> Permite que a classe, metódo, atributo seja acessado por todos.
-- protected -> Acesso somente a classe e filhos da classe.
+- protected -> Acesso somente a própria classe e subclasses dentro ou fora do projeto.
+- protected internal -> Acesso a todos, exceto classes de outro projeto.
+- private protected -> Acesso apenas a própria classe e subclasses dentro do próprio projeto.
+- internal -> Acesso a todos, porém apenas dentro do próprio projeto.
 - private -> Acesso somente dentro da própria classe.
 
 ## Atributos
@@ -30,5 +33,8 @@ uma classe com os metódos estáticos: criptografar e desincriptografar. (Este p
 
 &nbsp; O problema agora é que não é desejado que a classe Criptografia seja lida por outros programadores e que eles apenas possam utiliza-lá, sem saber o que tem por debaixo dos panos. <br>
 Para Resolver este problema deve-se utilizar a palavra reservada "private" na declaração da classe, transformando a mesma em uma classe privada.  
+
+
+
 
 
