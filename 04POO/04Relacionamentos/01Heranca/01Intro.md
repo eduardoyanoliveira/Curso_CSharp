@@ -8,7 +8,7 @@
 
 &nbsp; Um classe pode ser herdada por mais de uma subclass e ambas a subclass e a superclass são classes comuns em C#, porém a subclass conta com o advento de herdar ourtra classe.
 
-&nbsp; A subclasse não altera o comportamento da superclasse, apenas o comportamento de métodos herdados dentro da própria subclass.
+&nbsp; A subclasse não altera o comportamento da superclasse, apenas o comportamento de métodos herdados dentro da própria subclass.(polimorphismo)
 
 ### Exemplo
 
