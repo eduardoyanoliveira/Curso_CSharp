@@ -75,3 +75,7 @@ Obs:
 ```
 
 &nbsp; Apesar que no exemplo acima as subclasses não implementam novos métodos, ou possui propriedades para além das propriedades já herdadas. Um subclasse de uma classe abstrata pode sim possuir seus próprios membros. 
+
+## Polimorfismo
+
+&nbsp; O exmplo acima apresenta um tipo de polimorfismo, porque o método MakeNoise é polimorfico.Isto é, possui várias formas diferentes. 
