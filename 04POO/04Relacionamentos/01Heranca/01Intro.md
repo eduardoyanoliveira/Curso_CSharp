@@ -72,3 +72,7 @@ Obs: No exemplo acima a classe Animal é uma classe abstrata e não deve ser ins
 2º A Classe Duck especializa a classe Bird adicionando uma nova proprieade Color e um novo método Swim.
 
 3º Na herança é possível aproveitar o construtor da classe mãe utilizando a palavra reservada "base" da mesma forma que a palavra "this" é utilizada para aproveitar um construtor da mesma classe.
+
+### Obs:
+
+&nbsp; A herança é categorizada como um tipo de relacionamento "é um". Utilizando o exemplo acima pode-se dizer: "Um pato é uma ave".
