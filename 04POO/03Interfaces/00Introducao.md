@@ -107,3 +107,6 @@
 
 &nbsp; No exemplo acima ambas as classes Player e NPC implementam a interface IAnimated. Logo caso necessário seria possível intercambiá-las em um código que dependa apenas da interface IAnimated, aumentando assim a coesão do programa.
 
+Obs:
+
+- Ainda é possível que uma classe implemente multiplas interfaces utilizando para isto a separação por vírgulas.
