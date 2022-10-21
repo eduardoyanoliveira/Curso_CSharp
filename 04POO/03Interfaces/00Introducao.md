@@ -18,6 +18,9 @@
 
 - A dependência entre classes citada acima, é muito comum em sistemas complexos e pode ser dada por diferentes tipos de relacionamentos entre as mesmas. Este tema será abordado em próximos artigos, porém a fins de exemplificação, uma classe pode receber uma instância de outra classe como propriedade, o que configura o relacionamento de Composição. 
 
+## Sintaxe
+
+&nbsp; Para informar ao compilador que uma classe implementa uma interface, deve-se informar a frente do nome da classe em sua declaração, o símbolo de dois pontos seguidos pelo nome da interface.
 
 ### Exemplo: Classe implementando interface
 
