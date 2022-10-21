@@ -78,3 +78,15 @@
         } 
     }
 ```
+
+## sealed (Selar)
+
+&nbsp; A palavra sealed em C# pode ser utilizada para impedir que uma classe seja herdada, ou que um método que é uma sobescrição seja sobescrito em uma nova subclasse.
+
+* ### sealed class
+
+&nbsp; Para selar uma classe utilize a palavra sealed antes da palavra class na criação da classe.
+
+* ### seald override
+
+&nbsp; Para selar um método, deve-se utilizar a palavra "sealed" antes da palavra "override". Somente métodos que são sobrescrições podem ser selados.
