@@ -76,3 +76,44 @@ Obs: No exemplo acima a classe Animal é uma classe abstrata e não deve ser ins
 ### Obs:
 
 &nbsp; A herança é categorizada como um tipo de relacionamento "é um". Utilizando o exemplo acima pode-se dizer: "Um pato é uma ave".
+
+## Upcasting
+
+&nbsp; Por conta da herança ser uma relação "é um", pode-se realizar o upcasting entre as classes. Isto é, uma subclasse pode ser instanciada com o tipo da superclasse.
+
+### Exemplo
+
+&nbsp; No exemplo abaixo a subclass Duck é instanciada com o tipo Animal
+
+
+```
+    Animal duck = new Duck("Cinza", 3.0, 0.40);
+
+    duck.Feed(); // Output: A ave está se alimentando
+
+    class Bird {
+        public double Weight {get; set;}
+        public double Height {get; set;}
+
+        public Bird(double weight, double height){
+            Weight = weight;
+            Height = height;
+        }
+
+        public void Feed(){
+            Console.WriteLine("A ave está se alimentando");
+        } 
+    }
+
+    class Duck : Bird {
+
+        public string Color {get; set;}
+        public Duck(string color, double weight, double height): base (weight, height) {
+            Color = color;
+        }
+
+        public void Swim(){
+            Console.WriteLine("O Pato está nadando");
+        }
+    }
+```
