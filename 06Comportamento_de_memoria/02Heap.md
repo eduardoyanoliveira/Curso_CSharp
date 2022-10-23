@@ -18,7 +18,7 @@
 
 &nbsp; Valores armazenados na Heap são valores como objetos de classes que vão possuir uma referência na memória Stack. Isto é, ao instanciar um objeto a variável utilizada para armazená-lo estará na memória Stack. Entretanto esta variável armazenará apenas a referência para o endereço na memória Heap onde realmente estará armazenado os membros do objeto, como propriedades e métodos.
 
-Obs: A variável na memória Stack é chamada de ponteiro.
+Obs: A variável na memória  neste caso é chamada de ponteiro.
 
 ## Garbage Collector
 
