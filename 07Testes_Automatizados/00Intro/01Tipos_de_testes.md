@@ -20,6 +20,10 @@
 
 - Não entrega uma confiança total na acertividade de um processo, pois o mesmo não testa o processo por completo apenas uma pequena unidade.
 
+### Casos de uso
+
+&nbsp; Utilizado em funções, classes ou processo que aplicam a lógica da aplicação. Normalmente também são responsáveis por testar partes da aplicação que envolve calculos extensos e pesados.
+
 * ## Integration Test
 
 &nbsp; Ao contrário dos testes unitários, os testes de integração testa uma unidade do código com suas dependências externas.
@@ -27,6 +31,10 @@
 ### Características
 
 - Leva mais tempo do que testes unitários para executar, pois normalmente involvem operações pesadas, tal como input e output.
+
+### Casos de uso
+
+&nbsp; Utilizado em recursos que utilizam alguma camada de Input e Output (IO), como banco de dados, requisições a servidores, etc...
 
 * ## End-To-End Test
 
