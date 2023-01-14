@@ -25,7 +25,7 @@ Ao final do processo de compilação, um arquivo executável ou uma biblioteca s
 
 * ## Interpretação:
 
-&nbsp; A Interpretação por sua vez utiliza um interpretador, que também é um programa que auxilia no processo de traduzir o código de alto nível para uma linguagem de alto nível. Porém, ao contrário do compilador que realiza o processo de uma vez só quando o programador executa a compilação, o interpretador realizará a tradução durante a execução da solução (programa).
+&nbsp; A Interpretação por sua vez utiliza um interpretador, que também é um programa que auxilia no processo de traduzir o código de alto nível para uma linguagem de baixo nível. Porém, ao contrário do compilador que realiza o processo de uma vez só quando o programador executa a compilação, o interpretador realizará a tradução durante a execução da solução (programa).
 
 ## Principais diferenças entre Compilação e Interpretação.
 
