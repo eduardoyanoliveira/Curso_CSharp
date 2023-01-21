@@ -10,9 +10,9 @@
 
     * float ou double =>  Normalmente representa um número de ponto flutuante positivo ou negativo que pode está limitado a um valor máximo e minimo possível.
 
-    * bool ou boolean => Representa um valor que pode ser verdadeiro ou falso.
+    * bool => Representa um valor que pode ser verdadeiro ou falso.
 
-    * string ou str => Representa um encadeamento de caracteres.
+    * string => Representa um encadeamento de caracteres.
 
 #### Obs:
 
