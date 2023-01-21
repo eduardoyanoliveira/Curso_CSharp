@@ -19,7 +19,7 @@
 
 ## Conversão explícita com Casting
 
-&nbsp; Um maneira de realizar a atribuição de uma variável do tipo float utilizando uma variável do tipo double seria utilizando o casting. O casting é uma maneira do desenvolvedor informar que realmente deseja converter o valor mesmo conciente da possível perda de dados. Para utilizá-lo é necessário informar entre parênteses o tipo de dado desejado na frente do valor a ser convertido.
+&nbsp; Um maneira de realizar a atribuição de uma variável do tipo float utilizando uma variável do tipo double seria utilizando o casting. O casting é uma maneira do desenvolvedor informar que realmente deseja converter o valor mesmo conciente da possível perda de dados. Para utilizá-lo é necessário informar entre parênteses o tipo de dado desejado atrás do valor a ser convertido.
 
 
 ### Exemplo
