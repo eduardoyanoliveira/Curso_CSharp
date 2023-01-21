@@ -58,7 +58,7 @@ Tipos númericos possuem um limete de valor mínimo e máximo, para descobri-los
 * Char => armazena um caracter unicode.(Armazena um unico caracter).
 
 ```
-    char gender = 'M';
+    char gender = "M";
 ```
 
 * string => representa um encadeamento de caracteres. Para criá-las utilize sempre aspas duplas entorno dos caracteres desejados.
