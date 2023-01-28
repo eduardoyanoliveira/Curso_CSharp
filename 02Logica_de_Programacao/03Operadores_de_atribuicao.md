@@ -58,7 +58,7 @@
 
 ```
     int numb = 10;
-    numb *= 5;
+    numb /= 5;
     Console.WriteLine(numb);
 
     // Output: 2
