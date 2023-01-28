@@ -40,11 +40,11 @@
 
     // Output: 4
 ```
-### Exemplo: Operador de Pós-Decremento
+### Exemplo: Operador de Pré-Decremento
 
 ```
     int numb = 3;
-    ++numb;
+    --numb;
     Console.WriteLine(numb);
 
     // Output: 2
