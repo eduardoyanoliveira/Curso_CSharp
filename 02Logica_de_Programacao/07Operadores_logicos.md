@@ -1,6 +1,6 @@
 # Operadores Lógicos
 
-&nbsp; Operadores lógicos são utilizados quando o desenvolvedor precisa realizar uma ou mais validações dentro do código. Os hoperadores lógicos testam hipóteses de estados a um ou mais valores.
+&nbsp; Operadores lógicos são utilizados quando o desenvolvedor precisa realizar uma ou mais validações dentro do código. Os operadores lógicos testam hipóteses de estados a um ou mais valores.
 
 ## Operadores
 
