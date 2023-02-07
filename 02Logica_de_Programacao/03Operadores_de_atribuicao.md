@@ -4,7 +4,7 @@
 
     = O valor da variável será igual o valor informado.
 
-```
+```csharp
     int numb = 10;
     Console.WriteLine(numb);
 
@@ -13,7 +13,7 @@
 
     += O valor da variável será igual o valor já contido mais o valor informado.
 
-```
+```csharp
     int numb = 10;
     numb += 5;
     Console.WriteLine(numb);
@@ -25,7 +25,7 @@
 
 &nbsp; O operador +=  também pode ser utilizado para concatenar strings.
 
-```
+```csharp
     string text = "ABC";
     text += "DE";
     Console.WriteLine(text);
@@ -35,7 +35,7 @@
 
     -= O valor da variável será igual o valor já contido menos o valor informado.
 
-```
+```csharp
     int numb = 10;
     numb -= 5;
     Console.WriteLine(numb);
@@ -45,7 +45,7 @@
 
     *= O valor da variável será igual o valor já contido multiplicado pelo valor informado.
 
-```
+```csharp
     int numb = 10;
     numb *= 5;
     Console.WriteLine(numb);
@@ -56,7 +56,7 @@
 
     /= O valor da variável será igual o valor já contido multiplicado pelo valor informado.
 
-```
+```csharp
     int numb = 10;
     numb /= 5;
     Console.WriteLine(numb);
