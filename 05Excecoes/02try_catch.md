@@ -16,7 +16,7 @@
 
 &nbsp; O programa a seguir solicita dois números para o usuário para efetuar uma divisão. Caso o usuário informe o divisor como zero, o programa tratará a exceção retornando uma mensagem ao usuário de operação inválida.
 
-```
+```csharp
     System.Console.WriteLine("Digite um número para ser o dividendo: ");
     int numb1 = int.Parse(Console.ReadLine());
 
