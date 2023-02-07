@@ -10,7 +10,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily"};
 
     foreach(string name in names){
@@ -34,7 +34,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily"};
     names.Add("Smith");
 
@@ -54,7 +54,7 @@
 
 &nbsp; Com o método "Insert" é possível adicionar elementos em um determinado índice da lista, passando como o primeiro parâmetro o índice desejado, e o valor a ser adicionado como segundo parâmetro.
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily"};
     names.Insert(1, "Smith");
 
@@ -76,7 +76,7 @@
 
 &nbsp; O método "Remove" permite o desenvolvedor remover um elemento da lista pelo seu valor. É importante atentar-se que apenas o primeiro elemento encontrado na lista com o valor desejado será removido.
 
-```
+```csharp
     List<int> numbers = new List<int>{2, 5, 8, 6, 2};
 
     numbers.Remove(2);
@@ -105,7 +105,7 @@
 
 &nbsp; O exemplo abaixo utiliza o método RemoveAll em uma lista de números inteiros, recebendo como predicate uma função que verifica se o número é par. Logo todos os números pares serão removidos da lista.
 
-```
+```csharp
     List<int> numbers = new List<int>{2, 5, 8, 6, 2, 7, 28, 6, 9, 11, 14, 37, 53 };
 
     numbers.RemoveAll(IsOdd);
@@ -138,7 +138,7 @@
 
 ### Exemplo
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily"};
     names.RemoveAt(1);
 
@@ -160,7 +160,7 @@
 
 &nbsp; Neste exemplo será removido do índice 4 (o segundo número 2) cinco elementos (até o valor 11).
 
-```
+```csharp
     List<int> numbers = new List<int>{2, 5, 8, 6, 2, 7, 28, 6, 9, 11, 14, 37, 53 };
 
     numbers.RemoveRange(4, 5);
@@ -191,7 +191,7 @@
 
 &nbsp; No exemplo abaixo como a função predicate é a mesma função utilizada em exemplos anteriores que verifica se um número é par, o método Find irá retornar o primeiro número par da lista.
 
-```
+```csharp
     List<int> numbers = new List<int>{5, 8, 6, 2, 7, 28, 6, 9, 11, 14, 37, 53 };
 
     int number = numbers.Find(IsOdd);
@@ -212,7 +212,7 @@
 
 &nbsp; Neste exemplo será retornado de uma lista de nomes, todos nomes que contiverem a letra "a".
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily", "Mary", "Rafael", "Ana", "Robert"};
 
     List<string> newNames = names.FindAll(hasLetterA);
@@ -239,7 +239,7 @@
 
 ### Exemplo
 
-```
+```csharp
     List<string> names = new List<string>{"Yan", "John", "Emmily", "Mary", "Rafael", "Ana", "Robert"};
 
     string name = names.FindLast(hasLetterA);
@@ -262,7 +262,7 @@
 
 &nbsp; Este exemplo encontra o índice do primeiro e ultimo número par na lista.
 
-```
+```csharp
     List<int> nubmers = new List<int>{3, 1, 4, 7, 8, 9, 11, 10, 15};
 
     int firstIndex = numbers.FindIndex(isOdd);
