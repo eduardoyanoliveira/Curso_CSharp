@@ -15,7 +15,7 @@
 
 ### Exemplo
 
-```
+```csharp
     HashSet<string> names = new HashSet<string>{"Yan", "John", "Emmily", "Mary", "Rafael", "Ana", "Robert"};
 
     HashSet<int> numbers = new HashSet<int>();
@@ -33,7 +33,7 @@
 
 ### Exemplo-
 
-```
+```csharp
     HashSet<string> names = new HashSet<string>{"Yan", "John", "Emmily", "Mary", "Rafael", "Ana", "Robert"};
 
     names.RemoveWhere(containsOLetter);
@@ -68,7 +68,7 @@
 ### Exemplo
 
 
-```
+```csharp
     HashSet<int> numbersOne = new HashSet<int>{1, 5, 7, 6};
     HashSet<int> numbersTwo = new HashSet<int>{6, 2, 10};
 
@@ -96,7 +96,7 @@
 
 ### Exemplo
 
-```
+```csharp
     HashSet<int> numbersOne = new HashSet<int>{1, 5, 7, 6};
     HashSet<int> numbersTwo = new HashSet<int>{6, 2, 10};
 
@@ -120,7 +120,7 @@
 
 ### Exemplo
 
-```
+```csharp
     HashSet<int> numbersOne = new HashSet<int>{1, 5, 7, 6};
     HashSet<int> numbersTwo = new HashSet<int>{6, 2, 10};
 
