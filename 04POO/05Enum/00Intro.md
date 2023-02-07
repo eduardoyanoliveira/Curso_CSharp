@@ -6,7 +6,7 @@
 
 &nbsp; Um exemplo de enum pode ser dado por cores de canetas. Normalmente as cores comuns de canetas são { Vermelho, Azul e Preto}. Logo se um programa deseja restringir a possibilidade de atribuição para a cor de uma caneta , deve-se utilizar o enum, pois desta forma apenas as cores previamente enumeradas poderão ser atribuídas a propriedade da cor da caneta.
 
-```
+```csharp
     Pen blackPen = new Pen{Brand="Bic", Color=Colors.Preto};
     Pen redPen = new Pen{Brand="Compact", Color=Colors.Vermelho};
     Pen bluePen = new Pen{Brand="MontBlanc", Color=Colors.Azul};
@@ -41,7 +41,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     enum Colors : int {
         Vermelho = 1,
         Azul = 2,
@@ -59,7 +59,7 @@
 
 ### Exemplo
 
-```
+```csharp
     string str = Colors.Vermelho.ToString();
 
     System.Console.WriteLine(str); // Output: Vermelho
@@ -77,7 +77,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Colors blue = Enum.Parse<Colors>("Azul");
 
     System.Console.WriteLine(blue); // Output: Azul
