@@ -6,7 +6,7 @@
 
 &nbsp; Em um programa de zoologico deve-se controlar a alimentação dos animais. Todas as vezes que um animal alimenta, deve-se registrar no programa. Para descrever os animais no programa, é criado  a classe Animal, e para registrar que o animal está se alimentando é criado um método dentro da classe, pois é sabido que todo animal irá se alimentar de alguma forma.
 
-```
+```csharp
     Animal lion = new Animal();
     lion.name = "Leo";
 
@@ -32,7 +32,7 @@ Obs:
 
 ### Exemplo
 
-```
+```csharp
     Calc c = new Calc();
 
     Console.WriteLine(c.Sum(10.5 , 3.5)); //Output: 14
