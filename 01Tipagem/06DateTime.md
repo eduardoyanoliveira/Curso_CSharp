@@ -10,7 +10,7 @@
 
 &nbsp; Ao Criar uma nova variável do tipo data sem nenhum parâmetro como é mostrado abaixo, a data armazenada na variável será a primeira hora da época moderna.
 
-```
+```csharp
     DateTime d = new DateTime();
 
     Console.WriteLine(d.ToString());
@@ -25,7 +25,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     DateTime d = new DateTime( 2022, 01, 01);
     Console.WriteLine(d.ToString()); // Output: 01/01/2022 12:00:00 AM
 ```
@@ -34,7 +34,7 @@
 
 ### Exemplo com horas
 
-```
+```csharp
     DateTime d = new DateTime( 2022, 01, 01, 07, 45, 30);
     Console.WriteLine(d.ToString()); // Output: 01/01/2022 07:45:30 AM
 
@@ -52,7 +52,7 @@
 
 ### Exemplo
 
-```
+```csharp
     DateTime now = DateTime.Now;
     Console.WriteLine(now); // Output: Hora e data atual
 ```
@@ -63,7 +63,7 @@
 
 ### Exemplo
 
-```
+```csharp
     DateTime now = DateTime.Today;
     Console.WriteLine(now); // Output: data atual
 ```
@@ -74,7 +74,7 @@
 
 ### Exemplo
 
-```
+```csharp
     DateTime d = DateTime.Parse("12-10-1998");
     Console.WriteLine(d); // Output: 12/10/1998 12:00:00 AM
 
@@ -88,7 +88,7 @@
 
 ### Exemplo
 
-```
+```csharp
     using System.Globalization;
 
     DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
@@ -117,7 +117,7 @@
 
 ### Exemplo: ToLongDateString
 
-```
+```csharp
     using System.Globalization;
 
     DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
@@ -126,7 +126,7 @@
 
 ### Exemplo: ToLongTimeString
 
-```
+```csharp
     using System.Globalization;
 
     DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
@@ -137,7 +137,7 @@
 
 ### Exemplo: Com máscara de formatação
 
-```
+```csharp
     using System.Globalization;
 
     DateTime d = DateTime.ParseExact("1998/12/10", "yyyy/mm/dd", CultureInfo.InvariantCulture);
@@ -159,7 +159,7 @@
 
 ### Exemplo
 
-```
+```csharp
     using System.Globalization;
 
     DateTime date = DateTime.ParseExact("21/02/2007", "dd/MM/yyyy", CultureInfo.InvariantCulture);
@@ -174,7 +174,7 @@
 
 ### Exemplo
 
-```
+```csharp
     using System.Globalization;
 
     DateTime dateOne = DateTime.ParseExact("21/02/2007", "dd/MM/yyyy", CultureInfo.InvariantCulture);
