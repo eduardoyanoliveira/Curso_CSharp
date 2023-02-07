@@ -10,7 +10,7 @@
 
 Para alterar a precedência de uma parte da operação pode-se utilizar os parênteses.
 
-```
+```csharp
     double numb = 5.5 + 10 * (2 + 2) / 2;
     Console.WriteLine(numb);    
 
@@ -27,7 +27,7 @@ Para gerar um valor double pelos menos um número da expressão deve conter casa
 
 ### Exemplo: Potenciação
 
-```
+```csharp
     Console.WriteLine(Math.Pow(5, 2));
     // Output: 25
 ```
@@ -35,7 +35,7 @@ Para gerar um valor double pelos menos um número da expressão deve conter casa
 
 ### Exemplo: Raiz Quadrada
 
-```
+```csharp
     Console.WriteLine(Math.Sqrt(9));
     // Output: 3
 ```
