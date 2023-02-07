@@ -32,7 +32,7 @@ Obs: No exemplo acima a classe Animal é uma classe abstrata e não deve ser ins
 
 &nbsp; Abaixo será apresentado a construção do exemplo de herança de Bird(Ave) até a classe Duck(Pato).
 
-```
+```csharp
     Duck duck = new Duck("Cinza", 3.0, 0.40);
 
     duck.Feed(); // Output: A ave está se alimentando
@@ -86,7 +86,7 @@ Obs: No exemplo acima a classe Animal é uma classe abstrata e não deve ser ins
 &nbsp; No exemplo abaixo a subclass Duck é instanciada com o tipo Animal
 
 
-```
+```csharp
     Animal duck = new Duck("Cinza", 3.0, 0.40);
 
     duck.Feed(); // Output: A ave está se alimentando
