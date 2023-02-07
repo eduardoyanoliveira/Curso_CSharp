@@ -14,7 +14,7 @@
 
 ## Exemplos:
 
-```
+```csharp
     int age = 24;
     string name = "Yan";
 
@@ -36,7 +36,7 @@
 
 ### Exemplo: Formatação com placeholder
 
-```
+```csharp
     int age = 24;
     string name = "Yan";
 
@@ -51,7 +51,7 @@
 
 ### Exemplo: Interpolação
 
-```
+```csharp
     int age = 24;
     string name = "Yan";
 
@@ -68,7 +68,7 @@
 
 ### Exemplo: Concatenação de strings
 
-```
+```csharp
     int age = 24;
     string name = "Yan";
 
