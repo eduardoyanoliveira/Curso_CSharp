@@ -16,7 +16,7 @@ Obs: <br>
 
 - A classe deve ser definida no final do código, caso a esteja no mesmo arquivo que o código que ira utilizá-la.
 
-```
+```csharp
     Person p1, p2;
     p1 = new Person();
     p1.name = "Yan";
@@ -44,7 +44,7 @@ Obs: <br>
 
 &nbsp; Ainda no exemplo acima, torna-se claro que para acessar uma propriedade do objeto é utilizado a notação de ponto ".". Além de utilizar a mesma para atribuir valores como o exemplo mostra, é possível acessar os valores.
 
-```
+```csharp
 
     Person p1, p2;
     p1 = new Person();
@@ -74,7 +74,7 @@ Obs: <br>
 
 ### Exemplo
 
-```
+```csharp
 
     Person p1 = new Person {name = "Yan", age = 24, height= 1.71};
 
