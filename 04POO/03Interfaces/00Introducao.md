@@ -26,7 +26,7 @@
 
 &nbsp; O Exemplo abaixo trata-se de um jogo, onde todo personagem deve conter métodos responsáveis por efetuar o deslocamente em todoas as quatro direções (frente, trás, direita, esquerda). Para garantir que está obrigatóriedade seja cumprida, as classes de personagens devem implementar a interface IAnimated.
 
-```
+```csharp
     Player p = new Player();
     p.MoveFoward(); //Output: Você está andando para frente
     p.MoveBack(); //Output: Você está andando para trás
