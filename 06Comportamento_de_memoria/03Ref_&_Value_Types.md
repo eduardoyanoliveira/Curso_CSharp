@@ -12,7 +12,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Product p1, p2;
 
     p1 = new Product("Teste", 30.0);
@@ -49,7 +49,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Product p1;
 
     p1 = null;
@@ -68,7 +68,7 @@
 
 ### Exemplo
 
-```
+```csharp
     double x, y;
     x = 20.4;
     y = x;
@@ -90,7 +90,7 @@
 
 &nbsp; O Exemplo abaixo mostra um tipo valor customizado criado para representar uma coordenada geográfica. Por ser um struct o valor da variável será armazenada diretamente na memória stack.
 
-```
+```csharp
     Coordenate teste = new Coordenate(-14.35, 10.37);
     System.Console.WriteLine(teste); // Output: Latitude:-14,35,Longitude:10,37
 
