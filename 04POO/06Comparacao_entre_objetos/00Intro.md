@@ -8,7 +8,7 @@
 
 &nbsp; O Exemplo abaixo mostra um programa que vai ordernar uma lista de objetos Produto do menor preço para o maior.
 
-```
+```csharp
     Product p1 = new Product("Tablet Samsung", 2200.00);
     Product p2 = new Product("Smartphone Mi 8", 1200.00);
     Product p3 = new Product("iPhone 12", 4500.00);
