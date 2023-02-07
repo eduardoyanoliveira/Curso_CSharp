@@ -31,7 +31,7 @@ Obs:
 
 &nbsp; No exemplo abaixo ambas as classe Dog e Cat que herdam da classe abstrata Animal, possuem sua própria implementação do método MakeNoise(FazerBarulho).
 
-```
+```csharp
     Dog puppy = new Dog("Rex", 4.5);
     Cat kitten = new Cat("Napoleão", 2.4);
 
