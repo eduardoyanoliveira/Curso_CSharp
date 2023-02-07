@@ -10,7 +10,7 @@
 
 &nbsp; Este exemplo trata-se de um Programa de desconto que possui a Classe BaseDiscount que é herdada pela classe CustomDiscount. A classe BaseDiscount possui um método Calc que calcula o disconto pela porcentagem informada, e a classe CustomDiscount calcula o disconto sobescrevendo o método Calc colocando além da porcentagem informada como disconto, um disconto fixo.
 
-```
+```csharp
     BaseDiscount bd = new BaseDiscount();
     CustomDiscount cd = new CustomDiscount(100.00);
 
@@ -49,7 +49,7 @@
 
 ### Exemplo
 
-```
+```csharp
     BaseDiscount bd = new BaseDiscount();
     CustomDiscount cd = new CustomDiscount(100.00);
 
