@@ -125,14 +125,14 @@ com a quantiadade de caracteres da string. <br>
 
 ## Obter substring. (Fatiar string)
 
-&nbsp; O método String.Slice permite o desenvolvedor a obter uma substring através de uma string. Para executar o método é necessário informar índice inicial onde a substring começará e o índice final.
+&nbsp; O método String.Substring permite o desenvolvedor a obter uma substring através de uma string. Para executar o método é necessário informar índice inicial onde a substring começará e o índice final.
 
 ### Exemplo:
 
 ```csharp
     string text = "O rato roue a roupa do rei de roma";
 
-    Console.WriteLine(text.Slice(2, 6)); // Output: "rato"
+    Console.WriteLine(text.Substring(2, 6)); // Output: "rato"
 ```
 
 ## Criar array através de strings
