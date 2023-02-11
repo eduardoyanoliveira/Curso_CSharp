@@ -130,7 +130,7 @@ com a quantiadade de caracteres da string. <br>
 ### Exemplo:
 
 ```csharp
-    string text = 'O rato roue a roupa do rei de roma';
+    string text = "O rato roue a roupa do rei de roma";
 
     Console.WriteLine(text.Slice(2, 6)); // Output: "rato"
 ```
