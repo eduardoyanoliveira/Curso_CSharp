@@ -31,7 +31,7 @@
 
 
 ```csharp
-    String[] names = new String[3]{"Yan", "john", "Mary"};
+    string[] names = new String[3]{"Yan", "john", "Mary"};
     
     for (int i = 0; i < names.Length; i++)
     {
@@ -67,7 +67,7 @@
 &nbsp; O Exemplo a seguir trata-se do mesmo exemplo utilizado para o for clássico, porém utilizando o foreach.
 
 ```csharp
-    String[] names = new String[3]{"Yan", "john", "Mary"};
+    string[] names = new String[3]{"Yan", "john", "Mary"};
 
     foreach (String name in names)
     {
