@@ -1,0 +1,168 @@
+using Cartsys.Notas.Domain.Validation.ErrorBase;
+using System.Reflection;
+using System.Runtime;
+using System.Runtime.Serialization;
+
+ 
+
+namespace Cartsys.Notas.Application.Utils.Mapper
+{
+    public class DomainReflectionMapper : IDomainReflectionMapper
+    {
+        public Result<TTo> Map<TFrom, TTo>(TFrom from) where TTo : notnull
+        {
+            var to = CreateInstance<TTo>();
+
+ 
+
+            var fromProperties = typeof(TFrom).GetProperties();
+            var toProperties = typeof(TTo).GetProperties();
+
+ 
+
+            foreach (var fromProp in fromProperties)
+            {
+                var toProp = toProperties.FirstOrDefault(p => p.Name == fromProp.Name);
+                if (toProp != null && toProp.PropertyType == fromProp.PropertyType && toProp.CanWrite)
+                {
+                    toProp.SetValue(to, fromProp.GetValue(from));
+                }
+                else if (toProp != null && toProp.PropertyType != fromProp.PropertyType && toProp.CanWrite)
+                {
+                    string error = "";
+
+ 
+
+                    object innerObject = InnerMap(fromProp.GetValue(from), CreateInstance(toProp.PropertyType), ref error);
+
+ 
+
+                    if (!string.IsNullOrEmpty(error))
+                        return Result<TTo>.Fail(Error.Validation(description: error));
+
+ 
+
+                    MethodInfo innerValidator = innerObject.GetType().GetMethod("Validate");
+                    if (innerValidator != null)
+                    {
+                        ResultBase result = (ResultBase)innerValidator.Invoke(innerObject, new object[] { innerObject });
+
+ 
+
+                        if (result.IsFailure)
+                            return Result<TTo>.Fail(result.Error);
+
+ 
+
+                        toProp.SetValue(to, innerObject);
+                    }
+                    else
+                        return Result<TTo>.Fail(Error.Unexpected(description: "Validate method not found!"));
+                }
+            }
+
+ 
+
+            MethodInfo validator = typeof(TTo).GetMethod("Validate");
+
+ 
+
+            if (validator != null)
+                return (Result<TTo>)validator.Invoke((TTo)to, new object[] { to });
+            else
+                return Result<TTo>.Fail(Error.Unexpected(description: "Validate method not found!"));
+        }
+
+ 
+
+        private object InnerMap(object objFrom, object objTo, ref string error)
+        {
+            var fromProperties = objFrom.GetType().GetProperties();
+            var toProperties = objTo.GetType().GetProperties();
+
+ 
+
+            foreach (var fromProp in fromProperties)
+            {
+                var toProp = toProperties.FirstOrDefault(p => p.Name == fromProp.Name);
+                if (toProp != null && toProp.PropertyType == fromProp.PropertyType && toProp.CanWrite)
+                {
+                    toProp.SetValue(objTo, fromProp.GetValue(objFrom));
+                }
+                else if (toProp != null && toProp.PropertyType != fromProp.PropertyType && toProp.CanWrite)
+                {
+                    object innerObject = InnerMap(fromProp.GetValue(objFrom), CreateInstance(toProp.PropertyType), ref error);
+
+ 
+
+                    MethodInfo innerValidator = innerObject.GetType().GetMethod("Validate");
+                    if (innerValidator != null)
+                    {
+                        ResultBase result = (ResultBase)innerValidator.Invoke(innerObject, new object[] { innerObject });
+
+ 
+
+                        if (result.IsFailure)
+                            error = result.Error.Description;
+
+ 
+
+                        toProp.SetValue(objTo, innerObject);
+                    }
+                    else
+                        error = "Validate method not found!";
+                }
+            }
+
+ 
+
+            return objTo;
+        }
+
+ 
+
+        private static object CreateInstance<T>()
+        {
+            var type = typeof(T);
+
+ 
+
+            return Instantiator(type);
+
+ 
+
+        }
+
+ 
+
+        private static object CreateInstance(Type type)
+        {
+            return Instantiator(type);
+        }
+
+ 
+
+        private static object Instantiator(Type type)
+        {
+            if (type.IsValueType)
+            {
+                return Activator.CreateInstance(type);
+            }
+            else
+            {
+                var constructor = type.GetConstructor(Type.EmptyTypes);
+                if (constructor == null)
+                {
+                    return FormatterServices.GetUninitializedObject(type);
+                }
+                else
+                {
+                    return Activator.CreateInstance(type);
+                }
+            }
+        }
+    }
+
+ 
+
+}

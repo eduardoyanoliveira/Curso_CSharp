@@ -8,7 +8,7 @@
 
 ### Exemplo
 
-```
+```csharp
     TimeSpan ts = new TimeSpan();
 
     Console.WriteLine(ts); // Output: 00:00:00
