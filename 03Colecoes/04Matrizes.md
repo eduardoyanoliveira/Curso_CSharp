@@ -10,7 +10,7 @@
 
 &nbsp; O exemplo abaixo instância uma matriz de 3 linhas e 2 colunas.
 
-```
+```csharp
     double[,] mat = new double[3, 2];
 ```
 
@@ -21,7 +21,7 @@
 ### Exemplo
 
 
-```
+```csharp
     double[,] mat = new double[3, 2];
 
     Console.WriteLine(mat.Length); // Output: 6
@@ -33,7 +33,7 @@
 
 ### Exemplo
 
-```
+```csharp
     double[,] mat = new double[3, 2];
 
     Console.WriteLine(mat.GetLength(0)); // Output: 3

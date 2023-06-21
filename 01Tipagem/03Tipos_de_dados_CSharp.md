@@ -3,13 +3,13 @@
 &nbsp; Este artigo apresenta apenas os tipos de dados básicos mais utilizados no CSharp.
 
 * int => número inteiro positivo ou negativo.
-```
+```csharp
     int numb = 150463;
     int numb2 = -351678;
 ```
 * long => número inteiro positivo ou negativo de maior amplitude do que int.
 
-```
+```csharp
     long numb = 2147483648L;
     long numb2 = -2147483648L;
 ```
@@ -20,7 +20,7 @@ Por convenção ao atribuir o valor ao tipo long é utilizado a letra "L" no fin
 
 * float => número de ponto flutuante positivo ou negativo.
 
-```
+```csharp
     float numb = 4.5f;
     float numb2 = -7.9f;
 ```
@@ -32,7 +32,7 @@ Para Indicar que trata-se de um float deve-se adicionar a letra "f" no final do 
 
 * double => número de ponto flutuante positivo ou negativo de maior amplitude do que float.
 
-```
+```csharp
     double numb = 4.5;
     double numb2 = -7.9;
 ```
@@ -41,7 +41,7 @@ Para Indicar que trata-se de um float deve-se adicionar a letra "f" no final do 
 
 Tipos númericos possuem um limete de valor mínimo e máximo, para descobri-los utilize as propriedades MinValue e MaxValue respectivamente.
 
-```
+```csharp
     /* A Função Console.WriteLine escreve um valor no console */
     Console.WriteLine(int.MinValue);
     Console.WriteLine(float.MaxValue);
@@ -50,21 +50,21 @@ Tipos númericos possuem um limete de valor mínimo e máximo, para descobri-los
 
 * bool => valor lógico verdadeiro ou falso.
 
-```
+```csharp
     bool isActive = true;
     bool isOff = false;
 ```
 
 * Char => armazena um caracter unicode.(Armazena um unico caracter).
 
-```
-    char gender = 'M';
+```csharp
+    char gender = "M";
 ```
 
 * string => representa um encadeamento de caracteres. Para criá-las utilize sempre aspas duplas entorno dos caracteres desejados.
 
-```
-    string name = "Yan"
+```csharp
+    string name = "Yan";
 ```
 
 #### Obs:

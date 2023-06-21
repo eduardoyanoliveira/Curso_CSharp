@@ -14,7 +14,7 @@
 
 ### Exemplo: Sem ToString
 
-```
+```csharp
     Animal lion = new Animal();
     lion.name = "Leo";
 
@@ -33,7 +33,7 @@
 
 ### Exemplo: com ToString
 
-```
+```csharp
     Animal lion = new Animal();
     lion.name = "Leo";
 

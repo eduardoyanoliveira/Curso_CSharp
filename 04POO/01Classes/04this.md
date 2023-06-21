@@ -8,7 +8,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Person p = new Person("Yan", 24, 1.71);
 
     Console.WriteLine(p); //Output: "meu nome é Yan, minha idade é 24 anos e minha altura é 1,71 cm"
@@ -38,7 +38,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Employee emp = new Employee("Yan", 24, 3000.00);
 
     Console.WriteLine(emp); //Output: "meu nome é Yan, minha idade é 24 anos e meu salário é R$ 3000.00 ."

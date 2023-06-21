@@ -10,7 +10,7 @@
 
 &nbsp; O programa abaixo apenas printará no console a mensagem "Olá" caso o teste lógico for verdadeiro.
 
-```
+```csharp
     if(10 > 2){
         Console.WriteLine("Olá");
     };
@@ -29,7 +29,7 @@
 &nbsp; O programa abaixo apenas printará no console a mensagem "Verdadeiro" caso o teste lógico for verdadeiro e "Falso" caso o teste lógico for falso.
 
 
-```
+```csharp
     if(1 > 2){
         Console.WriteLine("Verdadeiro");
     }else{
@@ -51,7 +51,7 @@
     * Caso o valor de "x" for maior que 10 e menor ou igual a 100 printará "Número de valor médio".
     * Caso nenhum dos testes acima forem verdadeiros o programa printará "Número de valor grande".
 
-```
+```csharp
     Console.WriteLine("Digite seu número: ");
     int x = int.Parse(Console.ReadLine());
 
@@ -72,7 +72,7 @@
 
 ### Exemplo
 
-```
+```csharp
     String result = 1 > 2 ? "Verdadeiro" : "Falso";
 
     Console.WriteLine(result); //Output: "Falso"
@@ -101,7 +101,7 @@
 
 ### Exemplo
 
-```
+```csharp
     int day = 4;
     
     switch (day) 

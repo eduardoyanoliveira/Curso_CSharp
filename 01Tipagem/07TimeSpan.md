@@ -23,7 +23,7 @@
 
 ### Exemplo: Horas, minutos e segundos
 
-```
+```csharp
     TimeSpan ts = new TimeSpan(4, 5, 10);
 
     Console.WriteLine(ts); // Output: 04:05:10
@@ -31,7 +31,7 @@
 
 ### Exemplo: Dias, horas, minutos e segundos
 
-```
+```csharp
     TimeSpan ts = new TimeSpan(2, 4, 5, 10);
 
     Console.WriteLine(ts); // Output: 2.04:05:10
@@ -52,7 +52,7 @@
 
 ### Exemplo: FromDays
 
-```
+```csharp
     TimeSpan ts = TimeSpan.FromDays(3.5);
 
     Console.WriteLine(ts); // Output: 3.12:00:00
@@ -79,7 +79,7 @@
 
 ### Exemplo
 
-```
+```csharp
     TimeSpan ts = new TimeSpan(3, 7, 8, 9, 1000);
 
     Console.WriteLine(ts.Days); // Output: 3
@@ -98,7 +98,7 @@ Divide(doble) => Divide um TimeSpan por um valor double
 
 ### Exemplo
 
-```
+```csharp
     TimeSpan ts = new TimeSpan(3, 7, 8, 9, 1000);
     TimeSpan ts2 = new TimeSpan(4, 8, 1);
 

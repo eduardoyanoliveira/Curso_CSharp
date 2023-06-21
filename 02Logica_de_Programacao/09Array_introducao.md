@@ -12,14 +12,14 @@
 
 ### Exemplos:
 
-```
+```csharp
     int[] numbers = new int[3];
 ```
 
 &nbsp; O exemplo acima declara um array de  três números inteiros inicializado como um array vázio.<br>
 &nbsp; A palavra reservada "new" é utilizada para referir que tratase de um nova instância da classe int[]. O tópico de classes será abordado em seções relacionadas a orientação a objetos.
 
-```
+```csharp
     int[] numbers = new int[3]{2,7,9};
 ```
 
@@ -31,7 +31,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     int[] numbers = new int[3]{2,7,9};
 
     Console.WriteLine(numbers[1]); // Output: 7
@@ -41,7 +41,7 @@
 
 &nbsp; Acima é possível ver um exemplo de declaração de array vázio, entretanto o mesmo não está inicializado. Para que o faça deve-se acessar cada índice do array e utilizar o sinal de atribuição (igual) para armazenar um valor no índice.
 
-```
+```csharp
     int[] numbers = new int[3];
     numbers[0] = 10;
     numbers[1] = 20;
@@ -55,7 +55,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     int[] numbers = new int[3];
  
     numbers[3] = 40;
@@ -67,7 +67,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     int[] numbers = new int[3]{10, 20, 30};
  
     numbers[1] = 40;
@@ -81,7 +81,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     String[] names = new String[3]{"Yan", "john", "Mary"};
  
     Console.WriteLine(Array.IndexOf(names, "Yan")); // Output: 0;
@@ -91,7 +91,7 @@
 
 &nbsp; O tipo de dados array conta com a propriedade Array.length que retornará o tamanh o do array. (Neste caso não será utilizado os parênteses na sua execução por não tratar-se de um método).
 
-```
+```csharp
     String[] names = new String[3]{"Yan", "john", "Mary"};
     
     Console.WriteLine(names.Length); // Output: 3;

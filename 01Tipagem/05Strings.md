@@ -7,7 +7,7 @@
 
 &nbsp; O caracter de escape é utilizando como uma barra invertida anterior a algum caracter dentro da string, asegurando que o caracter subsequente será uma string. O mesmo pode ser usado por exemplo para colocar aspas duplas dentro da string, o que não seria possível sem o mesmo, porque o compilador entenderia que as aspas duplas estão fechando a string.
 
-```
+```csharp
     Console.WriteLine("Gendalf gritou \"Não Passará\" e com seu cajado golpeou o chão.");
     // Output: Gendalf gritou "Não Passará" e com seu cajado golpeou o chão.
 ```
@@ -18,7 +18,7 @@
 
 &nbsp; Para colocar uma barra invertida literal dentro da string basta colocar duas barras invertidas seguidas.
 
-```
+```csharp
     Console.Write("Teste \\ "); // Output: Teste \
 ```
 
@@ -45,7 +45,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string phrase =  "Ceu Azul";
 
     Console.WriteLine(phrase[0]); // Output: C
@@ -62,7 +62,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string phrase =  "Ceu Azul";
 
     Console.WriteLine(phrase.IndexOf("l")); // Output: 7
@@ -77,7 +77,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "exemplo";
     
     Console.WriteLine(text.IndexOf("e")); // Output: 0
@@ -93,7 +93,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "exemplo";
     
     Console.WriteLine(text.LastIndexOf("e")); // Output: 2
@@ -105,7 +105,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "batata";
 
     Console.WriteLine(text.Replace("a", "o")); // Output: bototo
@@ -117,7 +117,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "batata";
 
     Console.WriteLine(text.Length()); // Output: 6
@@ -125,14 +125,14 @@ com a quantiadade de caracteres da string. <br>
 
 ## Obter substring. (Fatiar string)
 
-&nbsp; O método String.Slice permite o desenvolvedor a obter uma substring através de uma string. Para executar o método é necessário informar índice inicial onde a substring começará e o índice final.
+&nbsp; O método String.Substring permite o desenvolvedor a obter uma substring através de uma string. Para executar o método é necessário informar índice inicial onde a substring começará e o índice final.
 
 ### Exemplo:
 
-```
-    string text = 'O rato roue a roupa do rei de roma';
+```csharp
+    string text = "O rato roue a roupa do rei de roma";
 
-    Console.WriteLine(text.Slice(2, 6)); // Output: "rato"
+    Console.WriteLine(text.Substring(2, 6)); // Output: "rato"
 ```
 
 ## Criar array através de strings
@@ -142,7 +142,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "O rato roue a roupa do rei de roma";
 
     text.Split("r").ToString(); // O resultado será a lista: [ "O ", "ato ", "oue a ", "oupa do ", "ei de ", "oma" ]
@@ -158,7 +158,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "test";
 
     Console.WriteLine(text.ToUpper()); // Output: "TEST"
@@ -170,7 +170,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "Test";
 
     Console.WriteLine(text.ToLower()); // Output: "test"
@@ -183,7 +183,7 @@ com a quantiadade de caracteres da string. <br>
 
 ### Exemplo:
 
-```
+```csharp
     string text = "lua e dol ";
 
     Console.WriteLine(text.ToTitleCase()); // Output: "Lua E Sol"

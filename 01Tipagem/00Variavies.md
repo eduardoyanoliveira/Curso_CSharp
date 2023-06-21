@@ -21,7 +21,7 @@ Para realizar uma atribuição o programador deve utilizar o sinal de igual, e n
 
 ### Ex:
 
-```
+```csharp
     int idade = 30;
 ```
 
@@ -33,7 +33,7 @@ Para realizar uma atribuição o programador deve utilizar o sinal de igual, e n
 
 &nbsp; O nome de uma variável deve sempre começar por uma letra ou _. No meio do nome podem-se usar números, mas não se devem usar caracteres especiais e também não pode ser uma palavra reservada. Entende-se por palavras reservadas os comandos do C# e que são facilmente identificadas quando digitadas, por ficarem da cor azul. Exemplos de palavras que não podem ser utilizadas são: if, for, while, string e etc.<br>
 
-&nbsp; Variáveis em CSharp seguem o padrão CascalCase onde a primeira palavra começa com a letra minúscula e as demais palavras começam com letra maiúscula. Nomes de variáveis não possuem espaço em branco e deve possuir um nome significativo que descreva o valor que está sendo armazenado pela variável.
+&nbsp; Variáveis em CSharp seguem o padrão cammelCase onde a primeira palavra começa com a letra minúscula e as demais palavras começam com letra maiúscula. Nomes de variáveis não possuem espaço em branco e deve possuir um nome significativo que descreva o valor que está sendo armazenado pela variável.
 
 
 

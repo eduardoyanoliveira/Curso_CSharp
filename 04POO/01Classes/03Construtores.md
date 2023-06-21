@@ -27,7 +27,7 @@
 
     2º Os pârametros do construtor não são iguais aos nomes das propriedades, pois não começam com letra maiúscula. Está diferenciação é utilizada para que o compilador entenda que os valores das propriedades estão sendo atribuídos conforme os valores recebidos no construtor.
 
-```
+```csharp
     Person p = new Person("Yan", 24, 1.71);
 
     Console.WriteLine(p); //Output: "meu nome é Yan, minha idade é 24 anos e minha altura é 1,71 cm"
@@ -60,7 +60,7 @@
 
 &nbsp; O Exemplo abaxo mostra uma classe Product onde se pode instanciar um produto, passando ou não sua quantidade. Isto ocorre porque um dos construtores não recebe o atributo quantidade.
 
-```
+```csharp
     Product prod1 = new Product("notebook", 2500.00, 3);
     Product prod2 = new Product("iPhone", 10000.00);
 
@@ -100,7 +100,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Product prod1 = new Product();
     prod1.Name = "notebook";
     prod1.Price =  2500.00;

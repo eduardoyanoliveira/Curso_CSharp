@@ -8,7 +8,7 @@
 
 ## Exemplo
 
-```
+```csharp
     Console.WriteLine("Digite seu nome: ");
     string name = Console.ReadLine();
     // O valor de name será o valor digitado pelo usuário

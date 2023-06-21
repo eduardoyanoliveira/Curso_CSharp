@@ -6,7 +6,7 @@
 
 ### Exemplo: Operador de Incremento
 
-```
+```csharp
     int numb = 3;
     numb++;
     Console.WriteLine(numb);
@@ -15,7 +15,7 @@
 ```
 ### Exemplo: Operador de Decremento
 
-```
+```csharp
     int numb = 3;
     numb--;
     Console.WriteLine(numb);
@@ -33,18 +33,18 @@
 
 ### Exemplo: Operador de Pré-Incremento
 
-```
+```csharp
     int numb = 3;
     ++numb;
     Console.WriteLine(numb);
 
     // Output: 4
 ```
-### Exemplo: Operador de Pós-Decremento
+### Exemplo: Operador de Pré-Decremento
 
-```
+```csharp
     int numb = 3;
-    ++numb;
+    --numb;
     Console.WriteLine(numb);
 
     // Output: 2
@@ -54,7 +54,7 @@
 
 ### Exemplo Pós
 
-```
+```csharp
     int numb = 10;
     int numb2 = numb++;
 
@@ -64,7 +64,7 @@
 
 ### Exemplo Pré
 
-```
+```csharp
     int numb = 10;
     int numb2 = ++numb;
 

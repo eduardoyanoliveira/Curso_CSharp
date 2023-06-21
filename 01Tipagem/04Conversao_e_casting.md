@@ -8,7 +8,7 @@
 
 ### Exemplo
 
-```
+```csharp
     float numb = 4.8f;
     double numb2 = numb;
 
@@ -19,12 +19,12 @@
 
 ## Conversão explícita com Casting
 
-&nbsp; Um maneira de realizar a atribuição de uma variável do tipo float utilizando uma variável do tipo double seria utilizando o casting. O casting é uma maneira do desenvolvedor informar que realmente deseja converter o valor mesmo conciente da possível perda de dados. Para utilizá-lo é necessário informar entre parênteses o tipo de dado desejado na frente do valor a ser convertido.
+&nbsp; Um maneira de realizar a atribuição de uma variável do tipo float utilizando uma variável do tipo double seria utilizando o casting. O casting é uma maneira do desenvolvedor informar que realmente deseja converter o valor mesmo conciente da possível perda de dados. Para utilizá-lo é necessário informar entre parênteses o tipo de dado desejado atrás do valor a ser convertido.
 
 
 ### Exemplo
 
-```
+```csharp
     double numb = 4.8;
     float numb2 = (float)numb;
 
@@ -41,14 +41,14 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 ### Exemplo: Converter para int
 
-```
+```csharp
     int numb = int.Parse("4");
     // Neste caso o valor de numb será 4 e não a string "4"
 ```
 
 ### Exemplo: Converter para float
 
-```
+```csharp
     float numb = float.Parse("4,5");
 
     Console.Write(numb + 5); // Output: 9,5
@@ -56,7 +56,7 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 ### Exemplo: Converter para char
 
-```
+```csharp
     string oneChar = "Y";
     char text = char.Parse(oneChar);
 
@@ -69,7 +69,7 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 ### Exemplo: Converter para bool
 
-```
+```csharp
     string isOnn = "true";
     bool isActvive = bool.Parse(isOnn);
 
@@ -79,7 +79,7 @@ Neste caso não ocorrerá perda de dados,pois o valor 4.8 é muito pequeno e nã
 
 ### Exemplo: Converter para string
 
-```
+```csharp
     int numb = 234;
     string text = numb.ToString();
 

@@ -1,6 +1,6 @@
 # Operadores Lógicos
 
-&nbsp; Operadores lógicos são utilizados quando o desenvolvedor precisa realizar uma ou mais validações dentro do código. Os hoperadores lógicos testam hipóteses de estados a um ou mais valores.
+&nbsp; Operadores lógicos são utilizados quando o desenvolvedor precisa realizar uma ou mais validações dentro do código. Os operadores lógicos testam hipóteses de estados a um ou mais valores.
 
 ## Operadores
 
@@ -9,7 +9,7 @@ O Programa apenas retornará True caso ambas as comparações forem veredadeiras
 
 ### Exemplo:
 
-```
+```csharp
     Console.WriteLine(10 > 3 && 4 < 7); // Output: True
     Console.WriteLine(4 > 2 && 4 < 3); // Output: False
 ```
@@ -20,7 +20,7 @@ O Programa retornará True caso ao menos uma das comparações for veredadeira.
 
 ### Exemplo:
 
-```
+```csharp
     Console.WriteLine(1 > 3 && 4 < 2); // Output: False
     Console.WriteLine(4 != 2 || 4 < 3); // Output: True
 ```
@@ -30,7 +30,7 @@ O Programa retornará True caso o teste lógico resulte em False.
 
 ### Exemplo:
 
-```
+```csharp
     Console.WriteLine(!(1 > 3)); // Output: True
     Console.WriteLine(!(4 > 2)); // Output: False
 ```

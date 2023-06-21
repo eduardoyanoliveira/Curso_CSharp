@@ -12,7 +12,7 @@
 
 ### Exemplos:
 
-```
+```csharp
     Console.WriteLine(5 > 4); // Output: True
     Console.WriteLine(10 < 2); // Output: False
     Console.WriteLine(5 == 4); // Output: False

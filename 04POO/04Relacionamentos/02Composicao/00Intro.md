@@ -6,7 +6,7 @@
 
 &nbsp; O exemplo abaixo mostra como a classe Author(Autor) é composta pela classe Pen(Caneta).Neste caso um autor precisa de uma caneta para escrever. Logo, uma instância de caneta  deve ser passada na instâciação de um autor.
 
-```
+```csharp
 
     Pen pen = new Pen("Bic", "Preta");
     Author author = new Author("Yan", pen);
@@ -54,7 +54,7 @@
 
 &nbsp; O exemplo abaixo mostra um sistema de vendas onde para criar o pedido deve-se informar uma estratégia de frete que implemente a interface IShippingStrategy.
 
-```
+```csharp
     BaseShipping baseShipping = new BaseShipping(0.05);
     ShippingWithTaxes shippingWithTaxes = new ShippingWithTaxes(0.05, 100.0);
 

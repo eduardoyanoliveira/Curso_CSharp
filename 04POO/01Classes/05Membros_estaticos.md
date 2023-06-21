@@ -16,7 +16,7 @@
 
 &nbsp; O exemplo a seguir mostra uma classe estática Calc que representa uma calculadora simples. A classe possui métodos estáticos para performar operações matemáticas simples. Os métodos neste caso serão estáticos, porque os mesmos independem de propriedades de uma instância.
 
-```
+```csharp
 
     Console.WriteLine(Calc.Sum(10.0, 5.0)); // Output: 15.0
     Console.WriteLine(Calc.Subtract(10.0, 5.0)); // Output: 5.0
@@ -53,7 +53,7 @@
 
 &nbsp; Propriedades estáticas podem ser utilizadas para armazenar valores comuns entre instâncias. O Exemplo abaixo mostra uma classe Person que utiliza uma propriedade estática para armazenar a data atual, e através da mesma e a data de nascimento informada no construtor, calcula a idade da pessoa.
 
-```
+```csharp
     Person p1 = new Person("Yan", new DateTime(1998, 10, 12), 1.71);
     Console.WriteLine(p1); // Output: "meu nome é Yan, minha idade é 24 anos e minha altura é 1,71 cm"
 

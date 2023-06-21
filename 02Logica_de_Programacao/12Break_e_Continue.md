@@ -10,7 +10,7 @@
 
 &nbsp; O exemplo a seguir itera sobre uma lista de números printando cada número na tela.Entretanto a palavra break é utilizada para interromper a iteração caso o número atual seja o 9.
 
-```
+```csharp
     int[] numbers = new int[]{ 1,5, 6, 7, 3, 4, 10, 8, 2, 9, 17, 23, 51};
 
     foreach(int number in numbers){
@@ -34,7 +34,7 @@
 
 &nbsp; Este exemplo utilizará o mesmo código do exemplo acima. Entretanto, por utilizar a instrução "continue" apenas o número 9 não será printado no console.
 
-```
+```csharp
     int[] numbers = new int[]{ 1,5, 6, 7, 3, 4, 10, 8, 2, 9, 17, 23, 51};
 
     foreach(int number in numbers){

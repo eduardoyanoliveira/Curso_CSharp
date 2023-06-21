@@ -30,8 +30,8 @@
 &nbsp; O Exemplo a seguir utiliza a estrutura de repetição for para iterar sobre um array de nomes e a cada repetição o nome armazenado no atual índice do array é printado no console.
 
 
-```
-    String[] names = new String[3]{"Yan", "john", "Mary"};
+```csharp
+    string[] names = new String[3]{"Yan", "john", "Mary"};
     
     for (int i = 0; i < names.Length; i++)
     {
@@ -66,8 +66,8 @@
 
 &nbsp; O Exemplo a seguir trata-se do mesmo exemplo utilizado para o for clássico, porém utilizando o foreach.
 
-```
-    String[] names = new String[3]{"Yan", "john", "Mary"};
+```csharp
+    string[] names = new String[3]{"Yan", "john", "Mary"};
 
     foreach (String name in names)
     {

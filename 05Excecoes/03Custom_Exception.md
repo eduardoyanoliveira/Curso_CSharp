@@ -20,7 +20,7 @@
 
 &nbsp; O exemplo abaixo trata-se de um programa de cadastro de produtos onde a classe Product(produto) não pode aceitar que a propriedade preço seja negativa, ou que a propriedade nome possua menos que três caracteres.
 
-```
+```csharp
     Product p1 = new Product("Test", -1.0);
     System.Console.WriteLine(p1);
     // Output: Unhandled exception. ProductException: Error: Preço do produto não pode ser negativo

@@ -6,7 +6,7 @@
 
 &nbsp; Para facilitar a compreensão das funções, abaixo será apresentado uma função que receberá dois números e retornará sua soma.
 
-```
+```csharp
     int sum(int x, int y){
         int result = x + y;
 
@@ -45,7 +45,7 @@
 
 &nbsp; Abaixo veremos mais um exemplo que unirá todo conhecimento apresentado até aqui. Está função receberá um array de números inteiros e percorrerá o mesmo printando na tela se cada número é par ou ímpar.
 
-```
+```csharp
     int[] numbers = new int[]{2, 18, 1, 15, 82, 37, 6, 96, 4, 84, 10};
 
     oddOrEven(numbers);

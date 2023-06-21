@@ -10,7 +10,7 @@
 
 &nbsp; Neste exemplo o usuário deve descobrir o número secreto de um a dez.
 
-```
+```csharp
 Random rand = new Random();
 int secret = rand.Next(1, 10);
 
@@ -37,7 +37,7 @@ Console.WriteLine($"Correto!!! o número secreto é {secret}");
 
 ### Exemplo
 
-```
+```csharp
 
     int secret = 7;
     int guess = int.Parse(Console.ReadLine());

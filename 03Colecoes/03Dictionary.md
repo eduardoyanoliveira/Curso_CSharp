@@ -24,7 +24,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Dictionary<string, string> test = new Dictionary<string, string>();
 ```
 
@@ -37,7 +37,7 @@
 
 &nbsp; O Exemplo abaixo mostra a criação de um dicionário cuja ambos chave e valor são do tipo string. O mesmo é utilizado para armazenar o nome de uma pessoa e seu email.
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.Add("maria","maria@gmail.com" );
@@ -58,7 +58,7 @@
 ### Exemplo:
 
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.["maria"] = "maria@gmail.com";
@@ -70,7 +70,7 @@
 &nbsp; Para remover a chave e seu respectivo valor do dicionário, é necessário que se utilize o método "Remove" recebendo como parâmetro o valor da chave a ser removida.
 
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.["maria"] = "maria@gmail.com";
@@ -86,7 +86,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.Add("maria","maria@gmail.com" );
@@ -110,7 +110,7 @@
 ### Exemplo
 
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.Add("maria","maria@gmail.com" );
@@ -133,7 +133,7 @@
 
 ### Exemplo:
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.Add("maria","maria@gmail.com" );
@@ -148,7 +148,7 @@
 
 ### Exemplo
 
-```
+```csharp
     Dictionary<string, string> emails = new Dictionary<string, string>();
 
     emails.Add("maria","maria@gmail.com" );

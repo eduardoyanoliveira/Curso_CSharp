@@ -8,7 +8,7 @@
 
 &nbsp; Neste exemplo a função Avg recebe uma lista de números inteiros e deve retornar sua média, o único parâmetro que a função recebe é chamado numbers indicado com a palavra params seguida pelo tipo do array, que neste caso é int.
 
-```
+```csharp
     double averageAge = Avg(18, 37, 48, 24, 32, 51, 60, 70);
 
     System.Console.WriteLine(averageAge); // Output: 42

@@ -13,7 +13,7 @@
 ### Exemplo
 
 
-```
+```csharp
     Product p1 = new Product("iPhone", 7000.00, 50);
     Console.WriteLine(p1); // Output: "Produto iPhone, Preço: 7000, quantidade 50"
 
@@ -80,7 +80,7 @@
 
 &nbsp; No exemplo abaixo nota-se que, utlizando a Auto Property, a propriedade da classe utilizará o modificador de acesso "public". E que caso seja necessário criar uma propriedade apenas leitura, será utilizado o modificador de acesso "private" apenas no método "set" da Auto Property.
 
-```
+```csharp
 
     Person p = new Person("Yan", 24, 1.71);
 
