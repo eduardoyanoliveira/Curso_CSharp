@@ -2,7 +2,7 @@
 
 &nbsp; O encapsulamento é um dos quatro pilares da programação orientada a objetos, este pilar que diz que atributos, métodos e até classes devem serem protegidos do código que os utilizam.
 
-&nbsp; Na Programação orientada a objetos linguagens como Java, C, e C# utilizam os modificadores de acesso a seguir para limitar o acesso a classes e membros de classes.
+&nbsp; Na Programação orientada a objetos linguagens como Java, C++, e C# utilizam os modificadores de acesso a seguir para limitar o acesso a classes e membros de classes.
 
 - public -> Permite que a classe, metódo, atributo seja acessado por todos.
 - protected -> Acesso somente a própria classe e subclasses dentro ou fora do projeto.
